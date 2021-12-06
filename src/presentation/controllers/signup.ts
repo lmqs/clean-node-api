@@ -6,11 +6,5 @@ export class SignUpController {
         body: new Error('Missing param: nome')
       }
     }
-    if (!httpRequest.body.name) {
-      return {
-        statusCode: 400,
-        body: new Error('Missing param: nome')
-      }
-    }
   }
 }
