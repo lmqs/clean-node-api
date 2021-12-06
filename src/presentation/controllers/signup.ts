@@ -11,7 +11,6 @@ export class SignUpController {
         return badRequest(new MissingParamError(field))
       }
     }
-
     return {
       statusCode: 400,
       body: new Error('Erro genérico')
