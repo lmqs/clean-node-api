@@ -1,4 +1,4 @@
 export * from '../../protocols'
 export * from '../../protocols/email-validator'
-export * from '../../../domain/usecases/iadd-account'
-export * from '../../../domain/models/iaccount-model'
+export * from '../../../data/domain/usecases/iadd-account'
+export * from '../../../data/domain/models/iaccount-model'
