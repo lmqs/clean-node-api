@@ -67,7 +67,7 @@ describe('DbAddAccount UseCase', () => {
     await expect(promise).rejects.toThrow()
   })
 
-  test('Deverá chamar o componente IAddAccountRepository com os valores corretos', async () => {
+  test('Deverá chamar o componente addAccountRepository com os valores corretos', async () => {
     const { sut, addAccountRepositoryStub } = makeSut()
     const addSpy = jest.spyOn(addAccountRepositoryStub, 'add')
     const accountData = {
